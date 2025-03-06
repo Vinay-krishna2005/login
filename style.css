@@ -1,0 +1,77 @@
+@font-face {
+    font-family: minecraft;
+    src: url(Minecraft.ttf);
+}
+
+body {
+    font-family: 'minecraft';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(pix.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.423);
+    backdrop-filter: blur(5px);
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 2%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'minecraft';
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right,purple,blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right,rgb(104, 0, 104),rgb(0, 0, 207));
+    font-family: 'minecraft';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#usrname {
+    font-family: 'minecraft';
+    
+}
+
+#pass {
+    font-family: 'minecraft';
+}
+
+#usrname:hover {
+    font-family: 'minecraft';
+    font-weight: bold;
+    color: black;
+}
+
+#pass:hover {
+    font-family: 'minecraft';
+    font-weight: bold;
+    color: black;
+}
+
+#forgotpassword:hover {
+    font-weight: bold;
+}

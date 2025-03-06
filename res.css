@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    .login-containery {
+        width: 400px;
+    }
+    input {
+        width: 90%;
+    }
+}
